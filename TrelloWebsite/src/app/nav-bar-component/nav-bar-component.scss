@@ -1,0 +1,82 @@
+// root nav bar container
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+.nav-bar-container {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s, box-shadow 0.5s;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 100;
+}
+
+.nav-bar-container:hover {
+    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+// nav bar center
+
+.nav-bar-center {
+    display: flex;
+    height: 60px;
+    max-width: 1320px;
+    align-items: stretch;
+    margin: 0px auto;
+}
+
+.Logostyles__LogoLink-sc-mm495s-0 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-left-box {
+    display: flex;
+    position: relative;
+}
+
+.nav-right-box {
+    -moz-box-align: stretch;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-lists {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+// .nav-list-btn {
+//     background-color: transparent;
+//     border: none;
+//     color: #172b4d;
+//     font-size: 1rem;
+//     font-weight: 500;
+//     cursor: pointer;
+// }
+
+.nav-list-link,
+.nav-list-btn {
+    background-color: transparent;
+    align-self: stretch;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    padding: 1.25rem 1rem 1rem;
+    border: none;
+    color: #172b4d;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0px;
+    gap: 0.25rem;
+}
