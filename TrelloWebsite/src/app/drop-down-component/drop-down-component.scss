@@ -1,9 +1,13 @@
 .drop-down-container {
-    background-color: gray;
-    transition: all 0.5s ease-in-out;
-    height: 500px;
+    position: fixed;
+    background-color: whitesmoke;
+    // transition: all 0.5s ease-in-out;
+    // height: 500px;
     width: 100vw;
-    position: absolute;
+    overflow: hidden;
     top: 60px;
     z-index: 101;
+    color: black;
 }
+
+.solutions {}

@@ -1,1 +1,10 @@
-<div class="drop-down-container"></div>
+<div [ngClass]="'drop-down-container ' + className">
+    <h2>{{className}}</h2>
+    <p>{{type}}</p>
+    @if(className == 'features'){
+        <p>{{features()}}</p>
+    }
+    @if(className == 'solutions'){
+        <p>{{solutions()}}</p>
+    }
+</div>
